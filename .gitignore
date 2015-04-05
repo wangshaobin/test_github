@@ -24,3 +24,8 @@ out/
 .DS_Store
 
 # pullToRefresh
+library_pullToRefresh/build
+library_pullToRefresh/.classpath
+library_pullToRefresh/.project
+library_pullToRefresh/.settings
+library_pullToRefresh/local.properties
