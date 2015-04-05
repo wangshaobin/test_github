@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuguo.mydoctor.main.ui.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/above_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#dbdbdb">
+
+            <LinearLayout
+                android:id="@+id/fragmentRoot"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"/>
+
+            <LinearLayout
+                android:id="@+id/bottomList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/black"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/layout_index_id"
+                    style="@style/main_bottom_item" >
+
+                    <RadioButton
+                        android:id="@+id/index_id"
+                        style="@style/footbar"
+                        android:drawableTop="@drawable/ic_launcher"
+                        android:paddingTop="8dp"
+                        android:text="首页" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_order_id"
+                    style="@style/main_bottom_item" >
+
+                    <RadioButton
+                        android:id="@+id/order_id"
+                        style="@style/footbar"
+                        android:drawableTop="@drawable/ic_launcher"
+                        android:paddingTop="8dp"
+                        android:text="预约" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_sickness_id"
+                    style="@style/main_bottom_item" >
+
+                    <RadioButton
+                        android:id="@+id/sickness_id"
+                        style="@style/footbar"
+                        android:drawableTop="@drawable/ic_launcher"
+                        android:paddingTop="8dp"
+                        android:text="病例" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_server_id"
+                    style="@style/main_bottom_item" >
+
+                    <RadioButton
+                        android:id="@+id/server_id"
+                        style="@style/footbar"
+                        android:drawableTop="@drawable/ic_launcher"
+                        android:paddingTop="8dp"
+                        android:text="客服" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_mine_id"
+                    style="@style/main_bottom_item" >
+
+                    <RadioButton
+                        android:id="@+id/mine_id"
+                        style="@style/footbar"
+                        android:drawableTop="@drawable/ic_launcher"
+                        android:paddingTop="8dp"
+                        android:text="我的" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

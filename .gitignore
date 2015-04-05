@@ -1,0 +1,26 @@
+# Android generated
+bin/
+gen/
+
+# Maven
+target/
+pom.xml.*
+release.properties
+
+# Android Studio/InttelliJ
+*.iml
+*.ipr
+*.iws
+*.idea/
+out/
+
+# Ignore gradle files;
+.gradle/
+/local.properties
+/build
+/app/build
+
+# Mac
+.DS_Store
+
+# pullToRefresh
